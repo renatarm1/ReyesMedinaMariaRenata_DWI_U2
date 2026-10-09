@@ -14,7 +14,7 @@ import kuromiImg from "./assets/characters/kuromi.webp";
 import cinnamorollImg from "./assets/characters/cinnamoroll.webp";
 import pompompurinImg from "./assets/characters/pompompurin.png";
 import keropiImg from "./assets/characters/keropi.png";
-import chocoCatImg from "./assets/characters/choco-cat.png";
+import chocoCatImg from "./assets/characters/chococat.png";
 import meadowBg from './assets/background/meadow-bg.jpg';
 
 const characters = [
@@ -24,7 +24,7 @@ const characters = [
   { name: 'Cinnamonroll', img: cinnamorollImg, color: '#b2edff' },
   { name: 'Pompompurin', img: pompompurinImg, color: '#f5dab3' },
   { name: 'Keropi', img: keropiImg, color: '#daa872' },
-  { name: 'Choco cat', img: chocoCatImg, color: '#f9c74f' }
+  { name: 'Chococat', img: chocoCatImg, color: '#f9c74f' }
 ];
 
 export default function App() {
@@ -54,7 +54,7 @@ export default function App() {
           <SwiperSlide key={idx} style={{ width: '280px' }}>
             <div className="sanrio-card" style={{ borderColor: char.color }}>
               <img src={char.img} alt={char.name} />
-              <h3 style={{ color: '#ff477e', marginTop: '12px' }}>{char.name}</h3>
+              <h3 style={{ color: '#070707', marginTop: '12px'  }}>{char.name}</h3>
             </div>
           </SwiperSlide>
         ))}
