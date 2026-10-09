@@ -14,8 +14,8 @@ import kuromiImg from "./assets/characters/kuromi.webp";
 import cinnamorollImg from "./assets/characters/cinnamoroll.webp";
 import pompompurinImg from "./assets/characters/pompompurin.png";
 import keropiImg from "./assets/characters/keroppi.webp";
-import chocoCatImg from "./assets/characters/choco-cat.png";
-import meadowBgImg from './assets/backgrounds/meadow-bg.jpg';
+import chocoCatImg from "./assets/characters/choco-cat.png"
+import meadowBg from './assets/background/meadow-bg.jpg';
 
 const characters = [
   { name: 'Hello Kitty', img: helloKittyImg, color: '#fba5b4' },
@@ -29,7 +29,7 @@ const characters = [
 
 export default function App() {
   return (
-    <div className="meadow-bg" style={{ backgroundImage: `url(${meadowBgImg})` }}>
+    <div className="meadow-bg" style={{ backgroundImage: `url(${meadowBg})` }} >
       <h1 className="title">Hello Kitty & Friends</h1>
       <Swiper
         effect={'coverflow'}
