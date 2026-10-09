@@ -15,10 +15,11 @@ import cinnamorollImg from "./assets/characters/cinnamoroll.webp";
 import pompompurinImg from "./assets/characters/pompompurin.png";
 import keropiImg from "./assets/characters/keropi.png";
 import chocoCatImg from "./assets/characters/choco-cat.png";
+import meadowBgImg from './assets/backgrounds/meadow-bg.jpg';
 
 const characters = [
-  { name: 'Hello Kitty', img: helloKittyImg, color: '#ffb3c1' },
-  { name: 'My Melody', img: myMelodyImg, color: '#f4b2ea' },
+  { name: 'Hello Kitty', img: helloKittyImg, color: '#fba5b4' },
+  { name: 'My Melody', img: myMelodyImg, color: '#f4a6d9' },
   { name: 'Kuromi', img: kuromiImg, color: '#e7c6ff' },
   { name: 'Cinnamonroll', img: cinnamorollImg, color: '#b2edff' },
   { name: 'Pompompurin', img: pompompurinImg, color: '#f5dab3' },
@@ -28,9 +29,8 @@ const characters = [
 
 export default function App() {
   return (
-    <div className="meadow-bg">
+    <div className="meadow-bg" style={{ backgroundImage: `url(${meadowBgImg})` }}>
       <h1 className="title">Hello Kitty & Friends</h1>
-      
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

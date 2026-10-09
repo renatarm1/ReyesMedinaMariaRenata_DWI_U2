@@ -11,9 +11,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, #a1c4fd, #c2e9fb, #d4fc79, #96e6a1);
-  background-size: 400% 400%;
-  animation: floatMeadow 18s ease infinite;
+  
+  /* Propiedades para la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   overflow: hidden;
   font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
 }
@@ -39,7 +42,7 @@
 }
 
 .sanrio-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(8px);
   border-radius: 24px;
   padding: 20px;
