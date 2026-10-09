@@ -8,14 +8,14 @@ import 'swiper/css/pagination';
 import './App.css';
 
 // Importación de imágenes locales desde src/characters/
-import helloKittyImg from "./assets/characters/hello-kitty.webp";
-import myMelodyImg from "./assets/characters/my-melody.webp";
+import helloKittyImg from "./assets/characters/hellokitty.webp";
+import myMelodyImg from "./assets/characters/mymelody.webp";
 import kuromiImg from "./assets/characters/kuromi.webp";
 import cinnamorollImg from "./assets/characters/cinnamoroll.webp";
 import pompompurinImg from "./assets/characters/pompompurin.png";
 import keropiImg from "./assets/characters/keroppi.webp";
 import chocoCatImg from "./assets/characters/chococat.png";
-import meadowBg from './assets/background/meadow-bg.jpg';
+import meadowBg from './assets/background/meadowbg.jpg';
 
 const characters = [
   { name: 'Hello Kitty', img: helloKittyImg, color: '#ffb3c1' },
