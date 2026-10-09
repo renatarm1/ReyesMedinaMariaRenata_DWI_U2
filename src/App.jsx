@@ -9,11 +9,11 @@ import './App.css';
 
 // Importación de imágenes locales desde src/characters/
 import helloKittyImg from "./assets/characters/hello-kitty.webp";
-import myMelodyImg from "./assets/characters/my-melody.png";
+import myMelodyImg from "./assets/characters/my-melody.webp";
 import kuromiImg from "./assets/characters/kuromi.webp";
 import cinnamorollImg from "./assets/characters/cinnamoroll.webp";
 import pompompurinImg from "./assets/characters/pompompurin.png";
-import keropiImg from "./assets/characters/keropi.png";
+import keropiImg from "./assets/characters/keroppi.webp";
 import chocoCatImg from "./assets/characters/choco-cat.png";
 import meadowBgImg from './assets/backgrounds/meadow-bg.jpg';
 
